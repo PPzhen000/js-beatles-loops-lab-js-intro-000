@@ -9,7 +9,7 @@ function theBeatlesPlay(arr1, arr2){
 function johnLennonFacts(array){
   var result = [];
   var i = 0;
-  while(result.length <= array.length){
+  while(result.length < array.length){
     result.push(array[i] + "!!!")
     i++;
   }
